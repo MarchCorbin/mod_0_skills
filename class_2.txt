@@ -1,0 +1,15 @@
+Pasta
+
+Attributes:
+noodleType (string)
+sauce (string)
+quantity (integer)
+boilTime (integer)
+
+Methods:
+addNoodleType (noodleType)
+addSauce (sauce)
+weighPasta (quantity)
+startBoil (boilTime)
+endBoil (boilTime)
+;
