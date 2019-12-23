@@ -1,0 +1,19 @@
+Rum and Coke
+
+Attributes
+ingredients (coke, rum)
+drinkType (alcoholic)
+totalCapacity (8 oz)
+color (dark brown)
+cupType (glass)
+cupSize (small)
+currentCapacity (6 oz)
+cost (5.00)
+refills (2)
+ice (yes)
+
+Methods
+fillDrink (8 - 6 - 2 change color to dark brown)
+chooseCup (glass, small)
+calculateCost (5 * 2)
+addIce (8 - 2)
