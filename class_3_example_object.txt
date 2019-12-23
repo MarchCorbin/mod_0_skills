@@ -2,7 +2,6 @@ Rum and Coke
 
 Attributes
 ingredients (coke, rum)
-drinkType (alcoholic)
 totalCapacity (8 oz)
 color (dark brown)
 cupType (glass)

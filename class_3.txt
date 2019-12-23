@@ -1,18 +1,18 @@
 Class: Drink
 
 Attributes
-drinkType (string)
+ingredients (array)
 totalCapacity (integer)
 color (string)
 cupType (string)
 cupSize (integer)
 currentCapacity (integer)
-cost(integer)
+cost(float)
 refills (integer)
 ice (boolean)
 
 Methods
-fillDrink (currentCapacity - totalCapacity and changes color)
-chooseCup (drinkType + cupSize)
+fillDrink (totalCapacity - currentCapacity - ice (if applicable) and changes color)
+chooseCup (cupType + cupSize)
 calculateCost (cost * refills)
 addIce (totalCapacity - 2 for ice)
