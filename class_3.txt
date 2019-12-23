@@ -1,0 +1,18 @@
+Class: Drink
+
+Attributes
+drinkType (string)
+totalCapacity (integer)
+color (string)
+cupType (string)
+cupSize (integer)
+currentCapacity (integer)
+cost(integer)
+refills (integer)
+ice (boolean)
+
+Methods
+fillDrink (currentCapacity - totalCapacity and changes color)
+chooseCup (drinkType + cupSize)
+calculateCost (cost * refills)
+addIce (totalCapacity - 2 for ice)
