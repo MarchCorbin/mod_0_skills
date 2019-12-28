@@ -1,18 +1,20 @@
 Rum and Coke
 
 Attributes
-ingredients (coke, rum)
-totalCapacity (8 oz)
-color (dark brown)
-cupType (glass)
-cupSize (small)
-currentCapacity (6 oz)
+ingredients ["water", "juice", "sprite", "coke", "rum"]
+totalCapacity (8)
+color ("dark brown")
+cupSize ("small")
+currentCapacity (0)
 cost (5.00)
 refills (2)
-ice (yes)
+ice (true)
+full (true)
 
 Methods
-fillDrink (8 - 6 - 2 change color to dark brown)
-chooseCup (glass, small)
+useIngredients (3, 4)
+fillDrink (0 + 6 and change color to "dark brown")
+chooseCup ("small")
 calculateCost (5 * 2)
-addIce (8 - 2)
+addIce (6 + 2)
+stopFill (8 = 8)
